@@ -1,0 +1,52 @@
+/* Custom Styles
+// Styles that are custom to Bootstrap Standards
+// Created by Danielle Fortier
+// DanielleFortier.com
+*/
+
+
+
+/* ------- Global ------- */
+
+/* ------- Navigation -------*/
+@media (min-width: 768px) {
+.navbar-custom {
+    padding: 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    }
+}
+/* ------- Headings/Fonts/Colors ------*/
+
+/* ------- Sections ------- */
+
+/* >>home>> */ #home {}
+#home header {    
+    background: url(../img/home.png) no-repeat center center scroll; 
+    background-repeat: none;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    display: block;
+    width: 100%;
+    height: 800px;}
+#home header .intro-text {color: #fff;}
+header .intro-text h3 {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#home .overlay-text {color: #fff;position: absolute;z-index: 12;top: 35%;left: 4%;padding-right: 4%;width: 100%;text-align: left;}
+/* >>services>> */ #services {}
+/* >>about>> */ #about {}
+/* >>portfolio>> */ #portfolio {}
+/* >>conteact>> */ #contact {}
+
+/* ------- Images ------- */
+

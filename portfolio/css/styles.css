@@ -1,0 +1,6 @@
+@import url('/../css/bootstrap.min.css');
+@import url('/../css/custom.css');
+@import url('/../css/layout.css');
+@import url('/../css/variables.css');
+
+body {background:blue;}

@@ -1,0 +1,23 @@
+/* Variables */
+
+
+
+/* Colors */
+
+.blue {color:#2c3e50;}
+.darker-blue {color:#233140;}
+.white {color:#fff;}
+.orange {color:#f05f40;}
+
+
+/* Alignments */
+
+.text-center {text-align:center;}
+
+/* Fancy */
+
+.drop-shadow {    
+    -moz-box-shadow: 1px 1px 1px 0px #CACACA;
+    -webkit-box-shadow: 1px 1px 1px 0px #CACACA;
+    box-shadow: 1px 1px 1px 0px #CACACA;
+}
