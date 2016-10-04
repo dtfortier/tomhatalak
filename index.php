@@ -9,97 +9,37 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="col-md-6"></div>
+                   <div class="intro-text"><img src="resources/img/content/logo.png" class="img-responsive"/></div>
                       
                 </div>
             </div>
         </div>
     </header>
+    
+    <!-- Services Section -->
+    <section id="services">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                 <h2>Services</h2>
+                <div class="col-md-4">Custom Fabrication</div>
+                <div class="col-md-4">Mobile On-Site Repairs</div>
+                <div class="col-md-4">Sample</div>
+            </div>
+        </div>
+    </section>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Recent Work</h2>
+                  <h2>Recent Work</h2>
+                    <div class="col-md-3 port-item">Custom Fabrication</div>
+                    <div class="col-md-3 port-item">Mobile On-Site Repairs</div>
+                    <div class="col-md-3 port-item">Sample</div>
+                    <div class="col-md-3 port-item">Sample</div>
                     <hr class="primary">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="portfolio/le-dashboard/index2.php" class="portfolio-link" data-toggle="modal">
-                        
-                        <div class="caption">
-                            
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                      <div class="port-block img-responsive text-center">
-                            <h3 class="portfolio-block-title">Port Item</h3>
-                            
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="port-block img-responsive text-center">
-                            <h3 class="portfolio-block-title">Port Item</h3>
-                            
-                        </div>
-                       
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                         <div class="port-block img-responsive text-center">
-                             <h3 class="portfolio-block-title">Port Item</h3>
-                            
-                        </div>
-                    </a>
-                </div>
-                <!--<div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/thumbs/WBST-arc.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <p>Application Design</p>
-                        <!--<img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <p>Graphic Design</p>
-                        <!--<img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
-                </div>-->
             </div>
         </div>
     </section>
