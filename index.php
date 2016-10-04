@@ -3,7 +3,6 @@
 ?>
 
 <body>
-
      <!-- Header -->
     <header>
         <div class="container">
@@ -19,11 +18,13 @@
     <!-- Services Section -->
     <section id="services">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                 <h2>Services</h2>
-                <div class="col-md-4">Custom Fabrication</div>
-                <div class="col-md-4">Mobile On-Site Repairs</div>
-                <div class="col-md-4">Sample</div>
+            <div class="container">
+                <div class="col-lg-12 text-center">
+                     <h2>Services</h2>
+                    <div class="col-md-4">Custom Fabrication</div>
+                    <div class="col-md-4">Mobile On-Site Repairs</div>
+                    <div class="col-md-4">Sample</div>
+                </div>
             </div>
         </div>
     </section>
@@ -32,14 +33,14 @@
     <section id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h2>Recent Work</h2>
+               
+                  <h2 class="text-center">Recent Work</h2>
                     <div class="col-md-3 port-item">Custom Fabrication</div>
                     <div class="col-md-3 port-item">Mobile On-Site Repairs</div>
                     <div class="col-md-3 port-item">Sample</div>
                     <div class="col-md-3 port-item">Sample</div>
                     <hr class="primary">
-                </div>
+                
             </div>
         </div>
     </section>
@@ -51,25 +52,33 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="white">About</h2>
                     <hr class="primary">
-                    
-                </div>
-            </div>
-            <div class="row text-center">
-               
+      
                 <p>Hey there. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!! </p>
-                    
-                </div>
+                     </div>
+                 </div>
           
             </div>
        
     </section>
-
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+              <h2>Testimonials</h2>
+<p>stuff and things</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
+                <div class="col-lg-12">
+                    <h2 class="text-center">Contact Me</h2>
                     <hr class="primary">
                 </div>
             </div>
