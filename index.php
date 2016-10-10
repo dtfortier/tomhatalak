@@ -204,16 +204,16 @@
                     <h2 class="text-center">Contact Me</h2>      
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4 center-block"> 
-                    <div class="btn contact">Shoot me an e-mail</div>
+           <!-- <div class="row">
+                <div class="col-lg-12"> 
+                    <div class="btn contact text-center">Shoot me an e-mail</div>
                 </div> 
-            </div>
-            <!--<div class="row">
+            </div>-->
+           <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                  <!--  <form name="sentMessage" id="contactForm" novalidate>
+                  <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -251,7 +251,7 @@
                         </div>
                     </form>
                 </div>
-            </div>-->
+            </div>
         </div>
     </section>
 
