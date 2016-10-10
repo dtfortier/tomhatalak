@@ -2,14 +2,59 @@
     require_once("resources/templates/header.php");
 ?>
 
-<body>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container left-no-margin">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#page-top">Home</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
      <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                   <div class="intro-text"><img src="resources/img/content/logo.png" class="img-responsive"/></div>
-                      
+                   <div class="intro-logo"><img src="resources/img/content/logo.png" class="img-responsive"/></div>
+                    <div class="intro-text">METAL FABRICATION</div>
+                    <div class="intro-text-sm">STAINLESS . CARBON STEEL . ALUMINUM</div> 
+                    <div class="front-social"></div>
                 </div>
             </div>
         </div>
@@ -21,9 +66,16 @@
             <div class="container">
                 <div class="col-lg-12 text-center">
                      <h2>Services</h2>
-                    <div class="col-md-4">Custom Fabrication</div>
-                    <div class="col-md-4">Mobile On-Site Repairs</div>
-                    <div class="col-md-4">Sample</div>
+                    <div class="col-md-4">
+                        <h3>Custom Fabrication</h3>
+                        <p>We have had the privilege of working for some amazing clients and completing some great projects.  We would love to add your home to this gallery.  Take a look at some of our work to get a feel for what Henwood Construction can do for your home.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Mobile On-Site Repairs</h3>
+                    <p>We have had the privilege of working for some amazing clients and completing some great projects.  We would love to add your home to this gallery.  Take a look at some of our work to get a feel for what Henwood Construction can do for your home.</p></div>
+                    <div class="col-md-4">
+                        <h3>Sample</h3>
+                    <p>We have had the privilege of working for some amazing clients and completing some great projects.  We would love to add your home to this gallery.  Take a look at some of our work to get a feel for what Henwood Construction can do for your home.</p></div>
                 </div>
             </div>
         </div>
@@ -31,29 +83,94 @@
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
-        <div class="container">
+        
             <div class="row">
-               
-                  <h2 class="text-center">Recent Work</h2>
-                    <div class="col-md-3 port-item">Custom Fabrication</div>
-                    <div class="col-md-3 port-item">Mobile On-Site Repairs</div>
-                    <div class="col-md-3 port-item">Sample</div>
-                    <div class="col-md-3 port-item">Sample</div>
-                    <hr class="primary">
+                <div class="container">
+                <div class="col-lg-12 heading text-center">
+                    <h2>Gallery</h2>
+                    <p>We have had the privilege of working for some amazing clients and completing some great projects.  We would love to add your home to this gallery.  Take a look at some of our work to get a feel for what Henwood Construction can do for your home.</p>
+                </div>
+            </div>
+   
+        <div class="row">
+            <div class="container">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="img/portfolio/IMG_1909.JPG" class="portfolio-link" data-lightbox="gallery" data-title="Click the right half of the image to move forward.">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/IMG_1909.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>
                 
+                <div class="col-sm-4 portfolio-item">
+                    <a href="img/portfolio/IMG_1910.JPG" class="portfolio-link" data-lightbox="gallery" data-title="Click the right half of the image to move forward.">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/IMG_1910.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>
+     
+                <div class="col-sm-4 portfolio-item">
+                    <a href="img/portfolio/IMG_1911.JPG" class="portfolio-link" data-lightbox="gallery" data-title="Click the right half of the image to move forward.">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/IMG_1911.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="img/portfolio/IMG_1912.JPG" class="portfolio-link" data-lightbox="gallery" data-title="Click the right half of the image to move forward.">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/IMG_1912.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>    
+                <div class="col-sm-4 portfolio-item">
+                    <a href="img/portfolio/IMG_1913.JPG" class="portfolio-link" data-lightbox="gallery" data-title="Click the right half of the image to move forward.">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/IMG_1913.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="img/portfolio/IMG_1914.JPG" class="portfolio-link" data-lightbox="gallery" data-title="Click the right half of the image to move forward.">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/IMG_1914.JPG" class="img-responsive" alt="">
+                    </a>
+                </div>
+               
+                </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="white">About</h2>
-                    <hr class="primary">
-      
-                <p>Hey there. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!! </p>
+               
+                  <p>Hey there. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah!! </p>
+               
                      </div>
                  </div>
           
@@ -67,7 +184,13 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
               <h2>Testimonials</h2>
-<p>stuff and things</p>
+<blockquote class="left">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<p></p></blockquote>
+                    
+                    <blockquote>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<p></p></blockquote>
+                    
+                    <blockquote class="left">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<p></p></blockquote>
+                    
+
                 </div>
             </div>
         </div>
@@ -78,15 +201,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-center">Contact Me</h2>
-                    <hr class="primary">
+                    <h2 class="text-center">Contact Me</h2>      
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-4 center-block"> 
+                    <div class="btn contact">Shoot me an e-mail</div>
+                </div> 
+            </div>
+            <!--<div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                  <!--  <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -124,43 +251,12 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div>-->
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3 class="white">Location</h3>
-                        <p>I reside in the quaint Elmwood Village<br>of Buffalo, NY with my furry feline friend, Milo.</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3 class="white">Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3 class="white">My Blog</h3>
-                        <p>Sometimes I write about stuff and things. Feel free to visit my <a href="#">thoughts</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">

@@ -2,32 +2,35 @@
 
 
 
-/* Fonts */
-section h2 {
-    margin: 3px 0 41px;
-    font-size: 55px;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
- h2.text-center {text-align:center}
-
-
 hr.primary {border-color: #f05f40;border-width: 3px;max-width: 50px;}
 hr.secondary {border:solid 1px; max-width: 250px;text-align: center;}
 
+/* HEADER */
+
+.header-image,
+header {
+        background: url(../img/content/home.png) no-repeat center center scroll /*fixed*/;
+        background-color: #607b96;
+        background-repeat: none;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        display: block;
+        width: 100%;
+        height:800px;
+}
 
 /* NAVIGATION */
 
-ul.list-inline a {font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;letter-spacing: 1px;color: #337AB7;}
-ul.list-inline.home a {font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;text-transform: uppercase;letter-spacing: 1px;color: #fff;}
+ul.list-inline a {letter-spacing: 1px;color: #337AB7;}
+ul.list-inline.home a {text-transform: uppercase;letter-spacing: 1px;color: #fff;}
 
 /* FRONT PAGE */
 
-.intro {margin: 38px 0 0;}
-.intro h1 {font-family: 'Amatic SC', cursive;font-size: 92px;line-height: 40px;text-transform: none;text-align:center;}
-.intro h2 {color:#1D3C58;font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;text-align:center;font-size:20px;margin: 40px;text-transform: uppercase;font-weight: 400;letter-spacing: 1px;}
-.intro ul.list-inline {text-align:center;}
-.intro ul.list-inline li a {font-size:14px;font-weight: 300;}
-.intro-text {width: 75%;margin: 0 auto;}
+
+.intro-logo {width: 65%;margin: 0 auto;}
 header img {
     display: block;
     margin: 0 auto 20px;
@@ -35,11 +38,14 @@ header img {
     width: 100%;
     opacity: .79;
 }
+.intro-text {font-size: 29px;margin: 0 auto;text-align: center;color: #fff;font-weight: 700;}
+.intro-text-sm {font-size:20px;margin:0 auto;text-align:center;color:#fff;font-weight: 700;}
+.front-social {margin:0 auto;text-align:center;}
 
 /* SECTIONS */
 
 section {padding-top:70px; padding-bottom:50px; min-height:calc(100% - 1px);}
-section.about {
+section#about {
         background: url(../img/content/about.png) no-repeat center center scroll;
         background-color: #6D8DAD;
         background-repeat: none;
@@ -52,12 +58,39 @@ section.about {
         width: 100%;
         height:800px;
 }
-section.about p {color:#fff;}
+section#about .p-bg {background-color:#2c3e50;padding:20px;border-radius:6px;opacity:.05;}
+section#about p {color:#fff;}
+section#about a,
+section#about a:hover,
+section#about a:focus,
+section#about a:active,
+section#about a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+/* >>Services<< */
 section.services {}
-section#portfolio {background:#ccc;}
-section#portfolio .port-item {background: #333;
-    height: 200px;}
-section#testimonials {background:#6D8DAD;}
+
+/* >>Portfolio<< */
+section#portfolio {background:#ececef;}
+section#portfolio .port-item {background: #333;height: 200px;}
+section#portfolio .heading {padding-bottom:40px;}
+
+/* >>Testimonials<< */
+section#testimonials {background:#444d56;}
+section#testimonials h2 {color:#fff;}
+section#testimonials p,
+section#testimonials quote {color:#fff;}
+
+/* >>Contact<< */
+section#contact .btn.contact {background-color: #ccc;padding: 15px 32px;color: #fff;}
+
+
+
+/* >>Contact<< */
+
+
+
 /* BUTTONS */
 
 .btn-success {color: #fff;background-color: #f05f40;border-color: #f05f40;}
@@ -166,77 +199,34 @@ section.cover-1 {background-image:url("../img/portfolio/le-dash/psd/my-role.png"
 .portfolio.page-header {margin: 132px 0 20px;}
 h1.portfolio.page-header  {    font-family: 'Oswald', sans-serif;padding: 4px 0;font-size: 39px;font-weight: 600;}
 
+/* BLOCKQUOTE */
+
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote.left {border-left: 10px solid #ccc;}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
 
 
 
 
 /*---------------------------------------------------------------------------------------*/
-/* CUSTOM FONTS */
+/* FONTS */
 /*---------------------------------------------------------------------------------------*/
 
-/* BEBAS NEUE */
+body {font-family: 'Droid Serif', serif;}
+h2,h3,.intro-text,.intro-text-sm, .btn {font-family: 'Quicksand', sans-serif;}
 
-@font-face {
-    font-family: 'bebas_neuebold';
-    src: url('../fonts/bebasneue_bold-webfont.eot');
-    src: url('../fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'),
-         url('../fonts/bebasneue_bold-webfont.woff') format('woff'),
-         url('../fonts/bebasneue_bold-webfont.ttf') format('truetype'),
-         url('../fonts/bebasneue_bold-webfont.svg#bebas_neuebold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'bebas_neuebook';
-    src: url('../fonts/bebasneue_book-webfont.eot');
-    src: url('../fonts/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bebasneue_book-webfont.woff2') format('woff2'),
-         url('../fonts/bebasneue_book-webfont.woff') format('woff'),
-         url('../fonts/bebasneue_book-webfont.ttf') format('truetype'),
-         url('../fonts/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'bebas_neuelight';
-    src: url('../fonts/bebasneue_light-webfont.eot');
-    src: url('../fonts/bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bebasneue_light-webfont.woff2') format('woff2'),
-         url('../fonts/bebasneue_light-webfont.woff') format('woff'),
-         url('../fonts/bebasneue_light-webfont.ttf') format('truetype'),
-         url('../fonts/bebasneue_light-webfont.svg#bebas_neuelight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'bebas_neue_regularregular';
-    src: url('../fonts/bebasneue_regular-webfont.eot');
-    src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bebasneue_regular-webfont.woff2') format('woff2'),
-         url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
-         url('../fonts/bebasneue_regular-webfont.ttf') format('truetype'),
-         url('../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'bebas_neuethin';
-    src: url('../fonts/bebasneue_thin-webfont.eot');
-    src: url('../fonts/bebasneue_thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/bebasneue_thin-webfont.woff2') format('woff2'),
-         url('../fonts/bebasneue_thin-webfont.woff') format('woff'),
-         url('../fonts/bebasneue_thin-webfont.ttf') format('truetype'),
-         url('../fonts/bebasneue_thin-webfont.svg#bebas_neuethin') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}

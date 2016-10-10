@@ -17,10 +17,11 @@
     <link href="resources/css/layout.css" rel="stylesheet" type="text/css">
     <link href="resources/css/custom.css" rel="stylesheet" type="text/css">
     <link href="resources/css/variables.css" rel="stylesheet" type="text/css">
-    <link href="resources/css/freelancer.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/portfolio.css" rel="stylesheet" type="text/css">
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     
     
 
